@@ -133,6 +133,55 @@ header {
     width: 25px;
 }
 
+.slider {
+    height: auto;
+    overflow: hidden;
+}
+
+.slider-width {
+    height: 100%;
+    display: flex;
+    transition: all 0.3s;
+}
+
+.slider-item {
+    width: 100vw;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item img {
+    width: 100vw;
+}
+
+.slider--controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 99;
+}
+
+.slider--control {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #33433d;
+    background-color:rgba(255,255,255,0.3);
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 3rem;
+    margin: 0px 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.slider--control:hover {
+    opacity: .8;
+}
 
 .banner {
     background-image: url('../img/bg.jpg');
