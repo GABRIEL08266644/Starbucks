@@ -48,6 +48,12 @@
         margin-left: 5px;
     }
 
+    .slider--control {
+        font-size: 2rem;
+        height: 35px;
+        width: 35px;
+    }
+
     .banner h1 {
         font-size: 3.8rem;
     }
